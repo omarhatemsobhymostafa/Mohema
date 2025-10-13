@@ -1,14 +1,15 @@
 
 import './App.css';
+import Home from './Components/Home';
 import Navbar from './Components/Nav';
-import Service from './Components/Service';
+
 
 function App() {
   return (
     <>
     
         <Navbar />
-        <Service />
+        <Home/>
     </>
   );
 }
