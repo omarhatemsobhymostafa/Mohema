@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,5 +9,9 @@
     bottom: 0;
     box-sizing: border-box;
     direction: rtl;
-     font-family: "Beiruti", sans-serif;
+    font-family: "Cairo", sans-serif;
+    font-size: 13px;
+    line-height: 27px;
+    
+
 }
