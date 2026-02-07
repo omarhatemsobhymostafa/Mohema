@@ -6,7 +6,7 @@ export default function FirstPartHaml() {
 
   useEffect(() => {
     async function getWeeks() {
-      const res = await fetch("http://localhost:8000/api/v1/mohema");
+      const res = await fetch("https://mohemabackend.onrender.com/api/v1/mohema");
   const data = await res.json();
       setWeeks(data);
     }
