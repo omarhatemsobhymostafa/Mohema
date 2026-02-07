@@ -1,15 +1,11 @@
-import React from 'react'
-import FirstPartHaml from './Haml/FirstPartHaml'
-import { Route, Routes } from 'react-router-dom'
-import WeekHamlPart1 from './Haml/WeekHamlPart1'
+import React from 'react';
+import FirstPartHaml from './Haml/FirstPartHaml';
 
 export default function HamlPage() {
-    return (
-        <div className='py-10'>
-            <FirstPartHaml />
-            <Routes>
-                <Route path=':id' element={<WeekHamlPart1 />} />
-            </Routes>
-        </div>
-    )
+  return (
+    <div className='py-10'>
+      <h1 className="text-center text-2xl font-bold mb-5">مراحل الحمل</h1>
+      <FirstPartHaml />
+    </div>
+  );
 }
